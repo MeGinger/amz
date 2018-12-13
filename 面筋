@@ -5,7 +5,20 @@
 4, 11, 21
 
 ->> 1, 2, 3, 4, 5, 6, 7, 11, 21....
-sort stream pq twice.
+sort stream pq twice. -- find medium
+
+insertion sort??
+class Solution{
+  public void insertionSort(List<Integer> nums, int newInt){
+    int j = nums.size() - 1;
+    nums.add(newInt);
+    while(j >= 0 && nums.get(j) > newInt){
+      nums.set(j + 1, nums.get(j));
+      j--;
+    }
+    nums.set(j + 1, newInt);
+  }
+}
 \
 
 1.给一个未排序数组 值为1-N， 给一个交换索引的function，把数组排序。followup：要求不用任何memory，只用判断和给出的交换索引的function.(判断function是什么？)
@@ -23,6 +36,12 @@ sort stream pq twice.
 之后问了很多杂七杂八的web相关的基础知识，例如browser输入
 
 一个url会发生什么。数据库的基础也有涉及，包括关系型和非关系型，哪种情况用哪种数据库。也有简单举例子例如如何设计一个product信息相关的schema。
+---
+1.The broser will try to find the url ip address in different routers, browser, router ...
+2.browser initiate a TCP connection with the server, 3 hand shake
+3.Broser send Http request to the web server
+  Server Spring MVC part, the request hit the server, go through web.xml find out the mapping and filter out the bad request
+4.Server handle request and send response back to browser
 
 
 蠡口易二武+followup
