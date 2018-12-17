@@ -1,0 +1,39 @@
+242. Valid Anagram
+Given two strings s and t , write a function to determine if t is an anagram of s.
+
+Example 1:
+
+Input: s = "anagram", t = "nagaram"
+Output: true
+Example 2:
+
+Input: s = "rat", t = "car"
+Output: false
+
+
+
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        Map<Character, Integer> count = new HashMap<>();
+        for(char c : s.toCharArray()){
+            count.put(c, count.getOrDefault(c, 0) + 1);
+        }
+        for(char c: t.toCharArray()){
+            if(!count.containsKey(c)){
+                return false;
+            }
+            int prevCount = count.get(c);
+            if(prevCount == 0){
+                return false;
+            }
+            count.put(c, prevCount - 1);
+        }
+        int result = 0;
+        for(Map.Entry<Character, Integer> entry : count.entrySet()){
+            if(entry.getValue() != 0){
+                return false;
+            }
+        }
+        return true;
+    }
+}
