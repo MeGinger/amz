@@ -50,6 +50,9 @@ class Solution{
 
 
 
+1. determine if two binary tree is equal, not necessary to be identical, time O(n), space O(1)
+2. binary search tree vertical order traversal
+
 * *customer obession*
 1.Solve production issue, user screen record.
 2.
