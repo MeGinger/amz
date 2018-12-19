@@ -69,7 +69,7 @@ Build automation test for xTrain module
 * *frugality*
 * vocally self critical
 * *earn trust of others*
-
+Production support ticket.
 * *dive deep*
 
 * *have backbone; disgree and commit*
@@ -80,8 +80,24 @@ but unfortuanately my other member has to leave our company due to her personal 
 who is in charge of the whole task.
 I know it is a very huge task for me and I need to figure out the business requirement first. So I did the planning
 for the task carefully at the beginning. Firstly we had a meeting with our business anylyst and Product Owner to figure out
-the requirement for each 
+the requirement for each role. Then before I start coding, I spent some time summarize the group of the roles which have the similar privileges
+, for that sprint, i was really super efficient working on this ticket, and I added the access control one by one. And inorder to let the testers
+finish do the testing, i seperate the whole effort into two, deploy the termination related flows first to let the tester test, and deploy 
+the appointment related flows later.Finally we are able to make it for the planned production release date, I got some kudos from the team
+and did not lose the trust from the customers.
+
+negative feedback from tech lead.
+
+There was a sprint, our product owner created a story want us to check where we are using the primary_odg_id in our application, and my 
+tech lead assign this story to me. I did the analysis accoss the whole application and wrote the report and mention the classes and query we are 
+using that field, but at the end of the sprint, I asked my tech lead review the report, she told me that the my report can only be understand 
+by software developers however the product owner will not understand it when they review it. She think i did not figure out the real purpose 
+of the ticket when I start to do it. So I did transfer my report to english sentances to describe the situation to let PO better understand
+my word. After this I really appreciate my tech lead's opoinion and I have learned that I should be very clear of the requirement and start my work, otherwise 
+enven you put lots of the effort you may not satisfy the requirement.
 
 I do recommend that you have two for customer obsession, two for ownership, 
 and then two for principles that relate to the job you want.
+
+
 
