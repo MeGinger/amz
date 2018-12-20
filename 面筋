@@ -111,7 +111,14 @@ migration 已有的用户在用，为了让输出更好，改API，问用户 res
 5.How have you leveraged data to develop a strategy?
 
 20个故事：
-Optimazation of xtrain module, 提高性能 得到approve,
+Used a proxy datasource wrapper to check query which executed for a long time, found we have repeated query in xTrain module under one click,
+Optimazation of xtrain module, when I read the code I found that in one of the method, we are trying to fetch the MPI info for each grant,
+But the MPI indicator flag is gotten when the user logged in and it is stored in the session, so all the database connections are useless, so
+instead of calling the database manytimes, I used session parameter MPI indicator flag, because most of the grants does not have MPI,
+so after doing this, there is no need to fetch from the database if MPI indicator code is "N", finally as a result, if the grant has a large
+family, I can decrease the number of database connection by 20%.
+提高性能 得到approve, think big!
+
 智远：
 不为了工作学习一个技能。做RA 学东西 be courise and learn
 
