@@ -50,6 +50,8 @@ class Solution{
 
 舞契贰
 
+iterate nested list 就是蠡口 341
+
 
 1. determine if two binary tree is equal, not necessary to be identical, time O(n), space O(1)
 2. binary search tree vertical order traversal
