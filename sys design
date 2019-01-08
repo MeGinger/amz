@@ -1,0 +1,6 @@
+distributed system, soa, cacheing, load balancing, non-relational database, microservices, sharding.
+n-tiered software structure.
+trade off of consistency and availability 
+
+CAP trade off
+This is how many NoSql systems work, one node updates itself locally and a background process synchronizes all other nodes accordingly… 
