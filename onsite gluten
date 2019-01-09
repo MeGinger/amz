@@ -1,0 +1,9 @@
+一轮阿三，面了前端在白板上写网页，一个dropdown选state，一个dropdown选city，问怎么设计，我说这样设计，然后他说reused component的lifecycle会不会混在一起互相干扰，我说不会，他说会，不欢而散
+二轮manager，阿三，口音太重，全程不是很积极，问了道算法，在纸上写了code，类似于给你一个array，让你找出不重复的pair，每个pair的和必须出现在array里，【壹， 零，壹】返回【（零，壹）】，说了一个方案，复杂度n方，然后想到一个稍有优化的想法，硬是说我没有啥优化，然后我直接就写了更好的那个版本，那没有优化至少没有更差，你认为一样就一样吧. From 1point 3acres bbs
+午饭轮，白人小哥，不记分，买了一包薯片，一杯摩卡，然后问小哥WLB，聊了关于HQ2什么的，当时人很难受，累的要死，mentos快吃完了
+第三轮，胖胖的三哥大叔，很友好，写了一个程序，考的是树的题目，dfs，非常nice，可惜好像不是那个组的
+-baidu 1point3acres
+第四轮，一个华人面孔，不是native口音，一个三哥shadow，全程bq. From 1point 3acres bbs
+第五轮，白人大姐，加一个国人小哥shadow，面的了系统设计，前后端怎么设计，后端画了结构，api endpoint写了一下，前端白板上写了react component和css，愉快结束
+
+
