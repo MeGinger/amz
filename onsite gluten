@@ -120,3 +120,24 @@ BQ：
 
 System design:
 设计个scalable queueing system。（感觉说白了就是让你讲一遍kafka/kinesis）
+
+
+
+1.SDEII
+1) 让我讲了一下整个deployment的process，从提交code，到continuous integeration，到generate artifacts，到deployment
+2) 系统设计: 网站很慢怎么办，如果是slow query引起的怎么办，加cache有几种加法，各个cache的优缺点是什么。如果网站慢是一小部分用户引起的怎么办，如果优化，在我提到rate limitor的时候深入了一下rate limitor是怎么实现的。整个过程比较随意，感觉面试官想到哪就说哪儿
+
+2. 纯BQ，要吐了
+
+3. 
+1) Implement HashMap
+2) Implement minStack without using Stack
+
+4. Black Jack OOD
+
+5. Given a file of logs Log(userid, timestamp), find all users have logged in last 2 days.
+Follow up 1: 你用了两个set来记录两天中出现的用户，能不能只用一个collection？我想了一下改成了Map<user, timestamp>
+Follow up 2: 如果让你查询last 7 days呢？我说可以用Map存一个bitset，Map<user, BitSet(7)>，在遍历log的过程中一旦发现bitset中全是1，那么就记录一下这个user
+Follow up 3: 如果让你查询非连续的天数，比如让你查第3天，第5天，以及第7天的呢？我说最终满足条件的bitset可以根据输入动态的定，在这种情况下满足条件的结果是 (0010101).
+
+每轮都有很长的BQ，OOD那一轮代码都没写完...
