@@ -52,3 +52,71 @@ LZ 一周前去亚麻blackfoot一日游。亚麻EBS组
 3. 午饭， 中东小哥，随便聊聊
 4. 美国小哥， lru cache
 5. 美国大爷, 应该是bar raiser, 设计一个create proesss, kill process 的API
+
+
+
+
+
+
+第一轮：
+BQ 20min: a project you're proud of, chanllege? any debate? how about result/impact ?
+Coding: 
+1) lc qi shi san.
+2) lc san shi san.
+
+第二轮：
+BQ 20min: 
+1. your invent in a project.
+2. a project that doesn't match your skill sets.
+
+OOD:
+设计一个图书馆管理系统，支持：
+- reserve
+- checkout
+- return
+
+其中资源包括但不限于：图书，杂志，DVD，游戏碟。。。
+
+- DB schema 怎么设计？
+- reserve function 写一下
+- resultful API 写一下
+- 最后还有一个有意思的问题：假如库存只剩一本，被线上预定了。这时有另外一个人walk-in到这个图书馆，看到这本书，想借走。你借是不借？？
+
+第三轮：
+俩小哥同时，它俩不在Lex。
+
+上来先coding:
+题目就是：标准的拓扑排序你写一遍。
+
+BQ：. check 1point3acres for more.
+1. tell me the biggest mistake you made in your work.
+2. tell me a time you strongly disagree with your leader.
+
+第四轮：
+BQ：miss deadline 怎么办-baidu 1point3acres
+
+
+
+archtecture desgin:
+设计flight query service， 其中2%流量向其中更新数据，98%流量query。
+response 要求不超过2秒（这个延迟已经很高了啊）
+TPS 1000TPS （后来follow-up到unlimited，怎样scale out）
+flight data for one year 有 38 million 条
+
+query filter包括：只针对单程机票
+起降地点
+时间
+最高票价
+non/1/2 - stop
+
+DB层面：
+DB 怎么设计能优化搜索，用不用partition？
+分布式DB怎么设计
+
+第五轮：
+BQ：
+1. a project when you have a lot of obstacles
+2. a time when you could have stopped working but persisted.
+
+System design:
+设计个scalable queueing system。（感觉说白了就是让你讲一遍kafka/kinesis）
