@@ -86,3 +86,7 @@ class Solution {
         return index;
     }
 }
+
+
+
+//to do word ladder2
