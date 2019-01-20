@@ -170,3 +170,15 @@ topk购买次数最多的商品
 
 2个工作日后拿到口头offer.
 经验： BQ真的重要！务必腾出一周准备。多准备故事，尽量想的细节，想想这个故事或者经历大概可以回答哪些bq。最后务必把所有地里有的bq问题覆盖到。然后交流真的很重要，我这bug满天飞的面试都过了。。。。。
+
+
+
+1轮：BQ + System Design, 设计一个机场空中管理系统，就是指挥飞机降落起飞使用那个跑到
+2轮：这轮好像是Bar raiser。BQ + coding， Subset  没有follow up
+3轮：BQ + coding，有点类似拓扑排序，给了一个List<List<String>> [[b,a],[c,b],[d,c]...] 后面的是前面的先序，输出一个正确顺序。a,b,c,d。需要注意有死循环的可能。
+4轮：BQ + OOD 餐厅订餐系统，给一个interface需要实现
+5轮：2个面试官，一个shadow。BQ + LCA
+
+
+BQ太重要了一定要好好准备故事，一个principle最好准备2个故事，非常detailed. 
+Good Luck!
