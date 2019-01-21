@@ -1,3 +1,6 @@
+https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=471775 半年总结
+
+
 一轮阿三，面了前端在白板上写网页，一个dropdown选state，一个dropdown选city，问怎么设计，我说这样设计，然后他说reused component的lifecycle会不会混在一起互相干扰，我说不会，他说会，不欢而散
 二轮manager，阿三，口音太重，全程不是很积极，问了道算法，在纸上写了code，类似于给你一个array，让你找出不重复的pair，每个pair的和必须出现在array里，【壹， 零，壹】返回【（零，壹）】，说了一个方案，复杂度n方，然后想到一个稍有优化的想法，硬是说我没有啥优化，然后我直接就写了更好的那个版本，那没有优化至少没有更差，你认为一样就一样吧. From 1point 3acres bbs
 午饭轮，白人小哥，不记分，买了一包薯片，一杯摩卡，然后问小哥WLB，聊了关于HQ2什么的，当时人很难受，累的要死，mentos快吃完了
@@ -182,3 +185,18 @@ topk购买次数最多的商品
 
 BQ太重要了一定要好好准备故事，一个principle最好准备2个故事，非常detailed. 
 Good Luck!
+
+
+
+一共四轮：
+1. 给一段区间： n-m, 数组里面的数是n-m， 没有重复，找出数组里面唯一缺少的那个数； 二维数组，每一行是排序的，每一列也是排序的，给一个target，找是否target在 二维数组里
+2. Top k frequent item. 
+3. 纯bq
+4. ood 海战船
+主要是设计两个class，一个game，一个player，之后就是很常规的游戏类ood，game里面怎么initial，功能有开炮等等。。player里面的棋盘怎么设计，船怎么设计
+
+
+
+
+
+
