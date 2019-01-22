@@ -32,9 +32,23 @@ other team and ask him about the way to implement it in my local. It took me hal
 after using the data proxy, everything is wrote into log, and it makes my life much easier to find out the duplicated query. And I found 
 out the duplicated query and reduce the number of db connections by 25%. reduce response time by 10%.
 
-Set a goal for yourself but failed to achieve it
+6. Set a goal for yourself but failed to achieve it
 
-Received critical feedback, how did you respond, how did you use the lesson you learned here to somewhere else
+7. Received critical feedback, how did you respond, how did you use the lesson you learned here to somewhere else
+I was doing a ticket that our product owner need to know the position in our application that we are using the database column external_org_id
+I was assigned this ticket, I was doing an impact analasys of this column in our code base and database records, and I put everything
+into a excel sheet, like this query is contains the column name and it is used. And in order not to miss any of the data, I did the impact
+analasis twice. But at the time I let my tech lead review the my analysis, she is not satisfied with my work. She told me that this ticket
+is for product owner and they do not know the codes, if they view my report, they can get no information because all I wrote was based
+on the code. I just realize that I did not figure out the requirement clearly. So again I reevaluate the process and use debug point
+to trigger the database query. And wrote the business flow as the result.
+
+I learned that I should really figure out the requirement before I start to do the work. And after that, each time when I do a work, I will
+imagine that I am the costomer and think about on behalf them. Especially when I am working on the production issues, sometimes when I get 
+ticket at the end of the day, I will also take my time to look into it, because I imagine myself as customer, they can not perform their 
+daily work due to the issue, so I have to fix them as early as possible.
+
+
 
 If you do it again, would do it in a different way
 
