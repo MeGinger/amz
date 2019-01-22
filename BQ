@@ -1,10 +1,36 @@
-An example that you need to go outside your responsibility to do something, what are the results, before and after
+1.An example that you need to go outside your responsibility to do something, what are the results, before and after
+Maintain and deploy the chl framework which is rewritten in .net Framework. Learn online courses and schedule meeting with the creator to
+learn the process develop .NET framework. Be responsible for all the work(take ownership). I think learning the new technology .NET mvc 
+framework and using visual studio. Change some front end links and change some of the web services values.
 
-Pass deadline, how did you handle that
 
-Disagree with teammate or manager
+2. Pass deadline, how did you handle that.
+Build 
 
-A time that you stand against everyone in the team, you go ahead and implement it anyway
+3. Disagree with teammate or manager
+
+4. The biggest mistake you made and what did you learn from it? 
+Move the jsp file into secured location, previously all the jsps are under web content folder, we need to move them to either web-inf folder
+or public folder. It took me several rounds to move the jsps, I moved those module by module. And every round seems to be fine during the 
+testing. The last round was to move the public jsps to public folder and I did the similar thing as previously. After I move those jsp and
+deploy them to test enviroment. The next morning, i have been receiving the email and hearing teammates talking about that the test 
+environment can not be accessed. At first I thought it was related to configuration, so I did not care about it too much and continue my 
+work in my local enviroment. But in the afternoon my team lead came to ask me what I have done for yesterdays jsps, why am i moving the
+login.jsp, it took them the whole morning to trouble shoot the problem and there is a databse property point to that page and i didnt change
+the mapping for that property. I just realize that i have done something really bad for the teams.
+So in order to save time, I didnt revert the change back, I just use previous build version to deploy to the test environment and found out
+everything started to work. I then send out a email to the entire team to appologize that the issue is related to the changes I have made.
+And let them know they can start to perform their work now. I have learned that never neglect the details.
+
+5. A time that you stand against everyone in the team, you go ahead and implement it anyway
+High Memory issue. We found the xtrain slow, tech lead wants me to find out where we are having the duplicated queries get excecuted,
+I was not sure how to do that, she told me that maybe I can put a debug point in the db class and check how many times when the user
+click the query get executed. I took this approach first, but by doing this it is really easy to make you lost and some repeated query get 
+executed for 20 times. And I dont feel that it is a engineer way to solve the problem. Then I remember during one techform meeting, 
+someone introduced a data proxy project which can showthe queries that after user click. So I wrote an email to the person from the 
+other team and ask him about the way to implement it in my local. It took me half of the day to figure out the configuration settings, but 
+after using the data proxy, everything is wrote into log, and it makes my life much easier to find out the duplicated query. And I found 
+out the duplicated query and reduce the number of db connections by 25%. reduce response time by 10%.
 
 Set a goal for yourself but failed to achieve it
 
