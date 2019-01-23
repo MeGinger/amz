@@ -220,3 +220,8 @@ BQ + 一道跟链表有关的题目 想不起来具体问题了 不难 之后有
 
 
 
+一下是上周五的面经，每轮都有bq，bq地里很多，可以参考
+第一轮烙印加shadow，开始出一个duplicate list with random pointer，说完思路后烙印直接问我是不是做过，我说是，然后他就说做过应该提前告诉他，他好换题，我就等着换题了，他想了半天换了个lowest common ancestor，继续讲了思路写代码，烙印一直也没啥表情；
+第二轮不知道那个国家的白人，开始聊得还挺好，出题是在一个char二维matrix里找出一个词是不是english word，提前自己定义一个dictionary保存所有egnlish words，刚讲完思路这位老哥就感觉有点不愿意接话了，最后按dfs的思路把代码写完他也没啥兴致似的，就草草结束了；
+第三轮设计轮，烙印manager，问了我自己项目的一些问题，讲一个自己解决的chanlledge，要求细节，之后是他按照amanzon的网站对得到top ksearch结果的一些规则问我的想法；
+第四轮白人，应该是亚麻常问的log file问题，一个log file， 有timestamp， userid， pageid， 然后找次数最多的出现的三次sequence  
