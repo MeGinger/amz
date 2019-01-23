@@ -48,7 +48,22 @@ imagine that I am the costomer and think about on behalf them. Especially when I
 ticket at the end of the day, I will also take my time to look into it, because I imagine myself as customer, they can not perform their 
 daily work due to the issue, so I have to fix them as early as possible.
 
+8. Tell me about a time where you thought of a clever new way to save money for the company.
+Everytime when we do a release, we will need to run the netsparker to scan vulnability issues. But our netsparker is desktop version and
+it is installed on a remote desktop, so every team needs to login to remote server to run the scan, if many people login simutanesly, the 
+performance will be very slow, and we need to insert our PIV card to perform the remote access, so the problem will be most of time we need
+to stay at the company late if the process is not finished. Then I find out that there is an enterprise cloud version of the netsparker.
+We can login web page to perform the scan. So I bringup the idea to the planning meeting and team our product manager bring my idea to 
+archticture team. And I did a comparision between the desktop version and cloud version and wrote the report to show the advantage the 
+cloud version can help us. In the end the architecture team decided to use netsparker cloud version for the whole teams.
 
+9. Tell me about a time when you had to dive deep into the data and the results you achieved.
+Build xtrain access control, use production code to verify in my local.
+
+10. disagree with boss?
+High memory issue, instead of checking log, use memory dump.
+
+11. what you’d do after you realized you couldn’t hit the date?
 
 If you do it again, would do it in a different way
 
