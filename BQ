@@ -78,7 +78,31 @@ to let the tester have enough time to test each flow. Finally we finish before t
 Because we lack of document, I also created the document and put it into the confluence page to let the other new people can get familiar 
 with the system quicker.
 
+14. Tell me a time when you created an innovative product.
+Use data source proxy to find duplicated query and reduce the number of the database connections.
+
+15. tell me about a time when you are wrong
 By solving the high memory issue, use memory dump. Duplicated query use data wrapper proxy.
+
+
+16. ARE RIGHT, A LOT
+Work is to write the code, for different agency we send out different email template. After I finished the coing, all the logic works
+correct, but the problem is that the email send out process we have exception. Because we are calling the enotification service to send
+out the email, I can not debug their application. So I was not sure about the reason. I asked my tech lead, she told me it is data
+related, she said the data I am using is modified by others. But what she said can not convince me which makes me feel uncomfortable,
+Then I start to check the logs for the issue and found out that the exception did happened when we send out the email, and I go to 
+production log and observed the same issues. because my tech lead is always busy every day, so I wait her until the end of the day, and 
+told her my findings in production and she does not believe me at the first time, she said everything was tested before the release. Then 
+explained my findings in prod logs, she then sat down to trouble shot with me, she go through different steps and found out that the email
+sending exception start to show up begin at the previous release, it means people are not getting email since then. It is a very serious
+issue we have to do a quick release the next day. And meantime I collected all the emails in the mail log table, and report the list for
+the next morning. Our team product owner decided to send emails to those user to notify them about the issue.
+
+I think that is a good catch, because if I did not insist on, we are not gong to know that we have issue sending the emails.
+
+
+
+
 
 If you do it again, would do it in a different way
 
