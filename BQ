@@ -65,6 +65,21 @@ High memory issue, instead of checking log, use memory dump.
 
 11. what you’d do after you realized you couldn’t hit the date?
 
+12. How you deal with a coworker who dont like you, who you dont like.
+I will always provide help when they need, and I will be patient with them.
+
+13. 有没有觉得能比requirement做的更好的经历 - extra work, customer 有类似故事
+Build the access control, originally it was assigned to me and another developer to finish, but when the sprint started, the other developer
+decided to leave the current position, which means I have to finish both by myself. My tech lead told me not to hurry, if I can not finish 
+just dont push, because the mistake will prevent the user doing their behavior. But I dont want to the whole release be delayed by my work, 
+so I did a good plan for this ticket. There is no document I can refer to, it took me lots of time to figure our the business flows
+(meeting with product owner, BA, senior engineer), and compare the behavior in production code. And seperate the whole task into two parts,
+to let the tester have enough time to test each flow. Finally we finish before the release data and deliver the result into the production
+Because we lack of document, I also created the document and put it into the confluence page to let the other new people can get familiar 
+with the system quicker.
+
+By solving the high memory issue, use memory dump. Duplicated query use data wrapper proxy.
+
 If you do it again, would do it in a different way
 
 Major contribution
