@@ -85,7 +85,7 @@ Use data source proxy to find duplicated query and reduce the number of the data
 By solving the high memory issue, use memory dump. Duplicated query use data wrapper proxy.
 
 
-16. ARE RIGHT, A LOT
+16. ARE RIGHT, A LOT --.Tell me about a time when you could have stopped working but persisted.
 Work is to write the code, for different agency we send out different email template. After I finished the coing, all the logic works
 correct, but the problem is that the email send out process we have exception. Because we are calling the enotification service to send
 out the email, I can not debug their application. So I was not sure about the reason. I asked my tech lead, she told me it is data
@@ -102,7 +102,29 @@ I think that is a good catch, because if I did not insist on, we are not gong to
 
 
 
+17. sacrifice short term for long term solution
+Build xtrain web.xml clean up, didnt give all the roles. Long term consideration.
 
+THINK BIG: Tell me about a time when you proposed a new business.
+
+18. Describe how you would handle a busy situation where three people are waiting for help from you.
+(1) RPPR U01 release.
+(2) 
+
+19. Tell me a time when you earned trust of a group.
+Solving the production issue,build access control
+
+20. Tell me about a time when you had to dive deep into the data and the results you achieved.
+High memory.
+Production support database 2 record.
+
+21. Tell me about the most difficult interaction you had at work.
+High memory issue.
+email fail sending
+
+22. Tell me about a time where you overcame an obstacle and delivered results.
+U01 rppr short time
+xtrain access control
 
 If you do it again, would do it in a different way
 
