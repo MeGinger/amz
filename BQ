@@ -18,9 +18,9 @@ environment can not be accessed. At first I thought it was related to configurat
 work in my local enviroment. But in the afternoon my team lead came to ask me what I have done for yesterdays jsps, why am i moving the
 login.jsp, it took them the whole morning to trouble shoot the problem and there is a databse property point to that page and i didnt change
 the mapping for that property. I just realize that i have done something really bad for the teams.
-So in order to save time, I didnt revert the change back, I just use previous build version to deploy to the test environment and found out
-everything started to work. I then send out a email to the entire team to appologize that the issue is related to the changes I have made.
-And let them know they can start to perform their work now. I have learned that never neglect the details.
+So in order to save time, I didnt revert the change back,(bias for action) I just use previous build version to deploy to the test environment and found out
+everything started to work. I then send out a email to the entire team explained the reason and appologize that the issue is related to
+the changes I have made. And let them know they can start to perform their work now. I have learned that never neglect the details.
 
 5. A time that you stand against everyone in the team, you go ahead and implement it anyway
 High Memory issue. We found the xtrain slow, tech lead wants me to find out where we are having the duplicated queries get excecuted,
