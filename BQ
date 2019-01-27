@@ -35,9 +35,9 @@ out the duplicated query and reduce the number of db connections by 25%. reduce 
 6. Set a goal for yourself but failed to achieve it
 
 7. Received critical feedback, how did you respond, how did you use the lesson you learned here to somewhere else
-I was doing a ticket that our product owner need to know the position in our application that we are using the database column external_org_id
+I was doing a ticket that our product owner need to know the situation in our application that we are using the database column external_org_id
 I was assigned this ticket, I was doing an impact analasys of this column in our code base and database records, and I put everything
-into a excel sheet, like this query is contains the column name and it is used. And in order not to miss any of the data, I did the impact
+into a excel sheet, like this query contained the column name and it is used. And in order not to miss any of the data, I did the impact
 analasis twice. But at the time I let my tech lead review the my analysis, she is not satisfied with my work. She told me that this ticket
 is for product owner and they do not know the codes, if they view my report, they can get no information because all I wrote was based
 on the code. I just realize that I did not figure out the requirement clearly. So again I reevaluate the process and use debug point
