@@ -8,3 +8,12 @@
 4 5 6
 这样，其实很简单，用户输入任何字符，如, \n 这种也行，escapes一下就好了，哎不知道为和脑抽没打出来
 4. 利口 wuwu粑
+
+
+
+11月的一个周五面的 贝尔维尤AWS社招5轮 SDE2
+1. HM, 大量BQ + design image share application， 如何设计一个图片分享的app，支持群组分享，用户点赞等功能，注重CAP里的AP,  graph database是一个考核重点
+2. BQ + 蠡口饿石散
+3. BQ + 蠡口丝丝五 要求constant space，不能modify原始输入，难度提升，需要用recursion做
+4. 全程BQ, bar raiser
+5. BQ + 蠡口而而妖 + 蠡口妖撕零
