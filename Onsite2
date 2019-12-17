@@ -13,8 +13,11 @@
 
 11月的一个周五面的 贝尔维尤AWS社招5轮 SDE2
 1. HM, 大量BQ + design image share application， 如何设计一个图片分享的app，支持群组分享，用户点赞等功能，注重CAP里的AP,  graph database是一个考核重点
-2. BQ + 蠡口饿石散
+2. BQ + 蠡口饿石散 (Merge k Sorted Lists)
 3. BQ + 蠡口丝丝五 要求constant space，不能modify原始输入，难度提升，需要用recursion做
+
+Input: (7 -> 2 -> 4 -> 3) + (5 -> 6 -> 4)
+Output: 7 -> 8 -> 0 -> 7
 4. 全程BQ, bar raiser
 5. BQ + 蠡口而而妖 + 蠡口妖撕零
 
