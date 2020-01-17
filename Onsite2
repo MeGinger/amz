@@ -73,4 +73,31 @@ round2: 印度大哥 lp& 叁叁 & 贰叁
 round3：印度大哥&中国小弟 lp & 伍捌捌
 round4：印度大哥 lp & count number of k element in an array sum up to target
 
-lp大概20分钟左右，coding35分钟左右，5分钟闲聊。lp还是很看重的，看这个结果我觉得lp比coding重要，故事要精心准备，打磨几次，熟记lp，感动自己才能感动他人
+lp大概20分钟左右，coding35分钟左右，5分钟闲聊。lp还是很看重的，看这个结果我觉得lp比coding重要，故事要精心准备，
+打磨几次，熟记lp，感动自己才能感动他人.
+
+--------------------------------
+第一轮：白人Hiring Manager面，上来就问BQ，不过简历。BQ1：请描述一个场景工作中你和你的同事/Manager有冲突，你怎么应对？
+BQ2：描述一个场景你没有完成上级给你的Task 这些问题我都准备过，所以答得还算流畅，期间他一直敲键盘记录，搞得我还是有点紧张。。
+关于亚麻BQ建议大家准备几个故事，然后运用STAR法则（Situation, Task, Action, Result）来做, 具体就是套用17 leadership principle。
+需要注意的是亚麻极度注重customer obsession， 所以如果你有和customer的例子，最后一定要强调our customer are very happy, 
+they give me a very positive feedback. 感觉能加分不少。问完BQ开始问算法，Print all paths from root to leaves of binary tree. 
+直接用DFS秒了。然后他还蛮高兴，最后几分钟介绍了他组里的情况，然后问了问他问题。
+
+第二轮：国人大叔，感觉氛围非常轻松。开始也是BQ，BQ1:如果你和同事产生分歧你会怎么做？
+BQ2：你觉得你做过最有挑战的事是什么？也是套模板答了。。。
+然后开始做题，查找字符的问题，返回最长的不重复substring， Two pointers直接做了，这题就是套模板，最优时间复杂度O(n). 
+做出来后他说you did a great job, 然后就没了，还剩下10分钟，然后就一直在聊天问他问题。谢谢大叔关照嘿嘿。。。
+
+然后来了个小哥带我去吃午饭了，这个过程不计入面试考核，所以我就很放松了，基本就安静吃东西没太说话，恢复体力准备下两轮，安静的气氛略显尴尬。。。
+
+第三轮：吃完午饭开始第三轮，是个印度小哥，上来还是BQ，BQ1:讲一讲你收获customer差评的经历 
+BQ2：讲一讲你在工作中做出的创新（分内工作之外）。 其实面之前我准备了4个故事，到这里都用完了，所以我又把前面的故事又套LP讲了一遍。。。
+建议大家来面亚麻一定要多准备几个故事，他家太喜欢问BQ了。。。
+然后开始做题，小哥讲了一堆background，后来我才知道差不过就是实现一个LRU Cache，和他沟通后，征得他同意用HashMap + 双向链表做的。
+最后跑了几个testcase，时间其实已经到了，然后他居然说：I think you can simplify this solution by only suing single listnode, can you achieve it? 我晕，大哥你不是一开始同意我用了双向链表来做了吗？时间肯定不够了，而且这题我之前没用单向链表做过，简短地讨论下思路，然后他就把代码照了相走了。。。
+
+第四轮：最后一轮是别的组的白人大叔，和一个shadow。 
+BQ1： 如果你现在有任务你同事还像你求助别的任务你会怎么做？
+BQ2:描述一个你已经错过ddl的例子。之后开始做题，和course schedule基本一样，问最后存不存在一种方案能把所有的element 都过一遍，
+返回True/False. 这个题目我也做过，所以没太纠结就做出来了。最后时间刚刚好，问了他一个问题就结束了。
