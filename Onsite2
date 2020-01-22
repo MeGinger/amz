@@ -106,6 +106,6 @@ BQ2:描述一个你已经错过ddl的例子。之后开始做题，和course sch
 ---------------------------------------------
 1. 系统设计： 设计AWS CodeCommit
 2. Coding：在一堆链表中找出最经常出现的pattern E.g. 在[A->B->C->D->E, E->B->C->D, B->C->D]中, B->C->D是最经常出现的pattern
-3. Coding：https://leetcode.com/problems/nu ... that-sum-to-target/
+3. Coding：https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
 4. BR：有向图最短路径
 5. 行为面试：怎么做design，怎么处理冲突，怎么处理项目中的risk，剩下的忘记了。
